@@ -1,0 +1,30 @@
+{
+    "name": "iggyvolz/sabifier",
+    "description": "Machine imaging software (client)",
+    "type": "project",
+    "require": {
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "ext-zlib": "*",
+        "firebase/php-jwt": "^5.4",
+        "php": "^8.0",
+        "splitbrain/php-cli": "^1.1",
+        "guzzlehttp/guzzle": "^7.3",
+        "ext-sodium": "*"
+    },
+    "license": "0BSD",
+    "authors": [
+        {
+            "name": "Katie Volz",
+            "email": "iggyvolz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Iggyvolz\\Sabifier\\": "src/"
+        }
+    },
+    "config": {
+        "platform-check": true
+    }
+}
